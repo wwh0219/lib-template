@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./"
+  },
+  "include": [
+    "./**/*.spec.ts",
+    "../*.d.ts",
+    "../src/**/*.ts",
+    "../src/**/*.vue"
+  ]
+}
